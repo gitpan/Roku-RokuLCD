@@ -1,0 +1,47 @@
+{
+   "abstract" : "M400 & M500 Display Functions made more accessible than via the Roku::RCP module",
+   "author" : [
+      "Ed Outhwaite <edster@gmx.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4203",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Roku-RokuLCD",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Roku::RCP" : "0",
+            "Time::HiRes" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Roku::RokuLCD" : {
+         "file" : "lib/Roku/RokuLCD.pm",
+         "version" : "0.03"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ]
+   },
+   "version" : "0.03"
+}
